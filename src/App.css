@@ -1,0 +1,43 @@
+.selectMenu{
+  margin: 10px auto;
+  width:70%;
+}
+
+.charRare{
+  margin: 10px 0px;
+  border: 2px solid black;
+}
+
+.charRare :hover {
+  cursor: pointer;
+}
+
+.position{
+  border: 2px solid black;
+}
+
+.position :hover {
+  cursor: pointer;
+}
+
+.class{
+  margin: 10px 0px;
+  border: 2px solid black;
+}
+
+.class :hover {
+  cursor: pointer;
+}
+
+.skill{
+  border: 2px solid black;
+}
+
+.skill :hover {
+  cursor: pointer;
+}
+
+.clicked {
+  color: white;
+  background-color: black;
+}
