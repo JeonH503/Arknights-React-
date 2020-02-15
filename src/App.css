@@ -1,6 +1,15 @@
+html { 
+  -webkit-text-size-adjust: 100%; 
+}
 .selectMenu{
   margin: 10px auto;
-  width:70%;
+  width: 70vw;
+}
+
+
+.result{
+  margin: 10px auto;
+  width: 70vw;
 }
 
 .charRare{
@@ -10,6 +19,37 @@
 
 .charRare :hover {
   cursor: pointer;
+}
+
+.selectMenu .charRare{
+  display: flex;
+  line-height: 5vh;
+}
+
+.selectMenu .position{
+  display: flex;
+  line-height: 5vh;
+}
+
+
+.selectMenu .class div{
+  display: flex;
+  line-height: 5vh;
+}
+
+.selectMenu .skill div{
+  display: flex;
+  line-height: 5vh;
+}
+
+.selectMenu p {
+  padding-left: .8vw;
+  padding-right: .8vw;
+  text-align: center;
+  margin : 10px 10px;
+  font-size: 1.3vw;
+  border: 2px solid black;
+  border-radius: 100px;
 }
 
 .position{
