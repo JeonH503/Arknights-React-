@@ -35,17 +35,24 @@ function ShowOper(props) {
     return a.selectedTagsCount > b.selectedTagsCount ? -1 : 1;
   }); //result배열의 선택된 태그 값에 따라 내림차순으로 정렬
   return (
-    <div>
+    <table className="table" border = "1">
+      <tr>
+        <th>태그 일치수</th>
+        <th>레어도</th>
+        <th>이름</th>
+        <th>태그</th>
+      </tr>
       {result.map( data => {
         return (
-          <div>
-            <p>{data.rare}☆ {data.name}</p>
-            <p dangerouslySetInnerHTML={ {__html: data.tag}}/>
-            <p>{data.selectedTagsCount}</p>
-          </div>
+          <tr>
+            <td>{data.selectedTagsCount}</td>
+            <td className="rare">{data.rare}☆</td>
+            <td>{data.name}</td>
+            <td dangerouslySetInnerHTML={ {__html: data.tag}}/>
+          </tr>
           )
       })}
-    </div>
+    </table>
   );
 }
 

@@ -19,3 +19,6 @@
 [0215/235850.616:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 액세스가 거부되었습니다. (0x5)
 [0215/235850.626:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 파이프가 끝났습니다. (0x6D)
 [0215/235850.628:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 액세스가 거부되었습니다. (0x5)
+[0216/142544.299:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 액세스가 거부되었습니다. (0x5)
+[0216/142544.311:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: 파이프가 끝났습니다. (0x6D)
+[0216/142544.313:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 액세스가 거부되었습니다. (0x5)

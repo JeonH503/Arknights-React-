@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import ShowOper from './ShowOper';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
 
   return (
     <div className="App">
+      <img alt="logo" src={logo}></img>
+      <p className="title">공개모집 계산기</p>
       <div className="selectMenu">
         <div className="charRare">
           <p className="신입" onClick={activeEvent}>신입</p>
@@ -72,9 +75,6 @@ function App() {
         </div>
       </div>
       <div class = "result">
-        {selectedTags.map( tag => (
-          <span key={tag}>{tag} </span>
-        ))}
         <ShowOper tags = {selectedTags}/>
       </div>
     </div>

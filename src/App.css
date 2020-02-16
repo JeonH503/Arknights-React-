@@ -6,15 +6,22 @@ html {
   width: 70vw;
 }
 
-
-.result{
-  margin: 10px auto;
-  width: 70vw;
+.title{
+  text-align: center;
+  margin: 0;
+  font-size: 2.5vw;
 }
 
-.charRare{
-  margin: 10px 0px;
-  border: 2px solid black;
+img{
+  display: block;
+  margin: 0px auto;
+  width:20vw;
+}
+
+.result{
+  text-align: center;
+  margin: 0px auto;
+  width: 70vw;
 }
 
 .charRare :hover {
@@ -22,6 +29,9 @@ html {
 }
 
 .selectMenu .charRare{
+  margin: 10px 0px;
+  border: 2px solid black;
+  border-radius: 30px;
   display: flex;
   line-height: 5vh;
 }
@@ -49,11 +59,34 @@ html {
   margin : 10px 10px;
   font-size: 1.3vw;
   border: 2px solid black;
-  border-radius: 100px;
+  border-radius: 40px;
+}
+
+table {
+  font-size: 1.3vw;
+  border-collapse: collapse;
+  line-height: 1.5;
+  margin : 20px 10px;
+}
+
+table th {
+  width: 20vw;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border: 1px solid #ccc;
+}
+
+table td {
+  width: 20vw;
+  padding: 10px;
+  vertical-align: top;
+  border: 1px solid #ccc;
 }
 
 .position{
   border: 2px solid black;
+  border-radius: 30px;
 }
 
 .position :hover {
@@ -61,8 +94,8 @@ html {
 }
 
 .class{
-  margin: 10px 0px;
   border: 2px solid black;
+  border-radius: 30px;
 }
 
 .class :hover {
@@ -71,6 +104,7 @@ html {
 
 .skill{
   border: 2px solid black;
+  border-radius: 30px;
 }
 
 .skill :hover {
